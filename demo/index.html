@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="pastel">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <link rel="icon" type="image/x-icon" href="../asset/logo.png">
+    <!-- style css link here  -->
+    <link rel="stylesheet" href="./style.css">
+
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+    <header class="">
+        <!-- NAVBAR START HERE -->
+        <div class="container mx-auto lg:px-24 px-8 my-8">
+          <div class="navbar bg-red-400 rounded-full px-8">
+              <div class="navbar-start">
+                  <div class="dropdown">
+                      <button tabindex="0" class="btn btn-ghost lg:hidden">
+                          <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="h-5 w-5"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor">
+                              <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M4 6h16M4 12h8m-8 6h16" />
+                          </svg>
+                      </button>
+                      <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Shop</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                  </div>
+                  <a class="flex items-center space-x-4 text-white text-lg font-semibold" href="#">
+                      <img src="../asset/logo.png" alt="Fruit Burst logo" class="h-8 w-8" />
+                      <span>Fruit Burst</span>
+                  </a>
+              </div>
+              <div class="navbar-center hidden lg:flex space-x-8 text-white text-lg font-semibold">
+                  <a href="#">Home</a>
+                  <a href="#">About</a>
+                  <a href="#">Shop</a>
+                  <a href="#">Contact</a>
+              </div>
+              <div class="navbar-end">
+                  <input type="text" placeholder="Search..." class="input input-bordered input-primary w-full max-w-xs" />
+              </div>
+          </div>
+        </div>
+      <!-- NAVBAR END HERE -->
+
+    </header>
+    <main></main>
+    <footer></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ! firebase script start here  -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyBKdLsJ5c_vkQua4O2WvkN-wgZiFHWDAe0",
+          authDomain: "fruit-burst-website-70975.firebaseapp.com",
+          projectId: "fruit-burst-website-70975",
+          storageBucket: "fruit-burst-website-70975.firebasestorage.app",
+          messagingSenderId: "295697296846",
+          appId: "1:295697296846:web:48e30838e38599a5b90f9f"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+    <!-- ! firebase script end here  -->
+</body>
+</html>
