@@ -13,7 +13,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="">
-    <header class="">
+    <header>
         <!-- NAVBAR START HERE -->
         <div class="container mx-auto lg:px-24 px-8 my-8">
           <div class="navbar bg-red-400 rounded-full px-8">
@@ -57,9 +57,62 @@
           </div>
         </div>
       <!-- NAVBAR END HERE -->
-
     </header>
-    <main></main>
+    <main>
+      <!-- BANNER START HERE  -->
+      <div class="container mx-auto lg:px-24 px-8 my-8">
+        <div class="carousel w-full">
+          <!-- set image background  -->
+          <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(../asset/banner1.png)] h-[60vh] py-24 flex items-center justify-center">
+
+            <div class="flex flex-col justify-center items-center">
+              <h1 class="text-7xl text-stone-200 font-bold text-center">
+                Exotic Tastes at <br> your Doorstep
+              </h1>
+              <p class="text-white w-2/3 text-center mx-auto mt-4">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus amet odio maxime quam saepe cupiditate quia, obcaecati hic reiciendis nihil. Aspernatur, architecto repellat vel ipsa minima iusto? Non error ullam quae nobis, nesciunt soluta!
+              </p>
+              <button class="btn btn-active bg-red-400 border-none text-white mt-4">
+                Shop Now !
+              </button>
+            </div>
+
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+              class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+              class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+              class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- BANNER END HERE  -->
+    </main>
     <footer></footer>
 
 
