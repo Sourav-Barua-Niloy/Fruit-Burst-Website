@@ -4,186 +4,406 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
-    <link rel="icon" type="image/x-icon" href="../asset/logo.png">
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co.com/HBmMLJY/logo.png">
     <!-- style css link here  -->
     <link rel="stylesheet" href="./style.css">
-
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+    <!-- Daisy Ui CDN here  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="">
-    <header>
-        <!-- NAVBAR START HERE -->
-        <div class="container mx-auto lg:px-24 px-8 my-8">
-          <div class="navbar bg-red-400 rounded-full px-8">
-              <div class="navbar-start">
-                  <div class="dropdown">
-                      <button tabindex="0" class="btn btn-ghost lg:hidden">
-                          <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              class="h-5 w-5"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor">
-                              <path
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  stroke-width="2"
-                                  d="M4 6h16M4 12h8m-8 6h16" />
-                          </svg>
-                      </button>
-                      <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="#">Shop</a></li>
-                          <li><a href="#">Contact</a></li>
-                      </ul>
-                  </div>
-                  <a class="flex items-center space-x-4 text-white text-lg font-semibold" href="#">
-                      <img src="../asset/logo.png" alt="Fruit Burst logo" class="h-8 w-8" />
-                      <span>Fruit Burst</span>
-                  </a>
-              </div>
-              <div class="navbar-center hidden lg:flex space-x-8 text-white text-lg font-semibold">
-                  <a href="#">Home</a>
-                  <a href="#">About</a>
-                  <a href="#">Shop</a>
-                  <a href="#">Contact</a>
-              </div>
-              <div class="navbar-end">
-                  <input type="text" placeholder="Search..." class="input input-bordered input-primary w-full max-w-xs" />
-              </div>
-          </div>
-        </div>
-      <!-- NAVBAR END HERE -->
-    </header>
-    <main>
-      <!-- BANNER START HERE  -->
+  <header>
+      <!-- NAVBAR START HERE -->
       <div class="container mx-auto lg:px-24 px-8 my-8">
-        <div class="carousel w-full">
-          <!-- set image background  -->
-          <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(../asset/banner1.png)] h-[60vh] py-24 flex items-center justify-center">
-            <div class="flex flex-col justify-center items-center">
-              <h1 class="text-7xl text-stone-200 font-bold text-center">
-                Exotic Tastes at <br> your Doorstep
-              </h1>
-              <p class="text-white w-2/3 text-center mx-auto mt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus amet odio maxime quam saepe cupiditate quia, obcaecati hic reiciendis nihil. Aspernatur, architecto repellat vel ipsa minima iusto? Non error ullam quae nobis, nesciunt soluta!
-              </p>
-              <button class="btn btn-active bg-red-400 border-none text-white mt-4">
-                Shop Now !
-              </button>
+        <div class="navbar bg-red-400 rounded-full px-8">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <button tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </button>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <a class="flex items-center space-x-4 text-white text-lg font-semibold" href="#">
+                    <img src="https://i.ibb.co.com/HBmMLJY/logo.png" alt="Fruit Burst logo" class="h-8 w-8" />
+                    <span>Fruit Burst</span>
+                </a>
             </div>
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide4" class="btn btn-circle">❮</a>
-              <a href="#slide2" class="btn btn-circle">❯</a>
+            <div class="navbar-center hidden lg:flex space-x-8 text-white text-lg font-semibold">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact</a>
             </div>
+            <div class="navbar-end">
+                <input type="text" placeholder="Search..." class="input input-bordered input-primary w-full max-w-xs" />
+            </div>
+        </div>
+      </div>
+    <!-- NAVBAR END HERE -->
+  </header>
+  <main>
+    <!-- BANNER START HERE  -->
+    <section class="container mx-auto lg:px-24 px-8  rounded-xl">
+      <div class="carousel w-full">
+        <!-- set image background  -->
+        <div id="slide1" 
+            class="carousel-item relative w-full h-[60vh] py-24 flex items-center justify-center 
+                    bg-gradient-to-br from-black/90 to-black/50 bg-cover bg-center" 
+            style="background-image: url('https://i.ibb.co/72S61jy/banner1.png');">
+          <!-- Hot Deal Banner -->
+          <div class="absolute top-0 right-0 my-10 mx-10 bg-slate-400 text-white p-2 rounded-md">
+            <h6>Hot Deal!!!!!!!!!!!</h6>
           </div>
 
-          <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(../asset/banner2.png)] h-[60vh] py-24 flex items-center justify-center">
-            <div class="flex flex-col justify-center items-center">
-              <h1 class="text-7xl text-stone-200 font-bold text-center">
-                Exotic Tastes at <br> your Doorstep
-              </h1>
-              <p class="text-white w-2/3 text-center mx-auto mt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus amet odio maxime quam saepe cupiditate quia, obcaecati hic reiciendis nihil. Aspernatur, architecto repellat vel ipsa minima iusto? Non error ullam quae nobis, nesciunt soluta!
-              </p>
-              <button class="btn btn-active bg-red-400 border-none text-white mt-4">
-                Shop Now !
-              </button>
-            </div>
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide1" class="btn btn-circle">❮</a>
-              <a href="#slide3" class="btn btn-circle">❯</a>
-            </div>
+          <!-- Slide Content -->
+          <div class="flex flex-col justify-center items-center">
+            <h1 class="text-7xl text-gray-700 font-bold text-center">
+              Exotic Tastes at <br> your Doorstep
+            </h1>
+            <p class="text-white w-2/3 text-center mx-auto mt-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus amet odio maxime quam saepe cupiditate quia, obcaecati hic reiciendis nihil. Aspernatur, architecto repellat vel ipsa minima iusto? Non error ullam quae nobis, nesciunt soluta!
+            </p>
+            <button class="btn btn-active bg-red-400 border-none text-white mt-4">
+              Shop Now!
+            </button>
           </div>
 
-          <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(../asset/banner3.png)] h-[60vh] py-24 flex items-center justify-center">
-            <div class="flex flex-col justify-center items-center">
-              <h1 class="text-7xl text-stone-200 font-bold text-center">
-                Exotic Tastes at <br> your Doorstep
-              </h1>
-              <p class="text-white w-2/3 text-center mx-auto mt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus amet odio maxime quam saepe cupiditate quia, obcaecati hic reiciendis nihil. Aspernatur, architecto repellat vel ipsa minima iusto? Non error ullam quae nobis, nesciunt soluta!
-              </p>
-              <button class="btn btn-active bg-red-400 border-none text-white mt-4">
-                Shop Now !
-              </button>
-            </div>
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide2" class="btn btn-circle">❮</a>
-              <a href="#slide4" class="btn btn-circle">❯</a>
-            </div>
-          </div>
-
-          <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(../asset/banner4.png)] h-[60vh] py-24 flex items-center justify-center">
-            <div class="flex flex-col justify-center items-center">
-              <h1 class="text-7xl text-stone-200 font-bold text-center">
-                Exotic Tastes at <br> your Doorstep
-              </h1>
-              <p class="text-white w-2/3 text-center mx-auto mt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus amet odio maxime quam saepe cupiditate quia, obcaecati hic reiciendis nihil. Aspernatur, architecto repellat vel ipsa minima iusto? Non error ullam quae nobis, nesciunt soluta!
-              </p>
-              <button class="btn btn-active bg-red-400 border-none text-white mt-4">
-                Shop Now !
-              </button>
-            </div>
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide3" class="btn btn-circle">❮</a>
-              <a href="#slide1" class="btn btn-circle">❯</a>
-            </div>
+          <!-- Navigation Arrows -->
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div>
-        
-        <div class="h-[20vh] w-2/3 mx-auto bg-slate-300 rounded-lg -translate-y-20 shadow-lg">
-          <div class="flex items-center justify-center">
-            <img src="../asset/fruit1.png" alt="">
-            <img src="../asset/fruit2.png" alt="">
-            <img src="../asset/fruit3.png" alt="">
-            <img src="../asset/fruit4.png" alt="">
-            <img src="../asset/fruit5.png" alt="">
+        <!-- ! Slide 2 -->
+        <div id="slide2" 
+        class="carousel-item relative w-full h-[60vh] py-24 flex items-center justify-center 
+                bg-gradient-to-br from-black/40 to-black/20 bg-cover bg-center" 
+        style="background-image: url('https://i.ibb.co.com/8zFbXz8/banner2.png');">
+      <!-- Hot Deal Banner -->
+      <div class="absolute top-0 right-0 my-10 mx-10 bg-slate-500 text-white p-2 rounded-md">
+        <h6>Hot Deal!!!!!!!!!!!</h6>
+      </div>
+
+      <!-- Slide Content -->
+      <div class="flex flex-col justify-center items-center">
+        <h1 class="text-7xl text-gray-700 font-bold text-center">
+          Exotic Tastes at <br> your Doorstep
+        </h1>
+        <p class="text-white w-2/3 text-center mx-auto mt-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus amet odio maxime quam saepe cupiditate quia, obcaecati hic reiciendis nihil. Aspernatur, architecto repellat vel ipsa minima iusto? Non error ullam quae nobis, nesciunt soluta!
+        </p>
+        <button class="btn btn-active bg-red-400 border-none text-white mt-4">
+          Shop Now!
+        </button>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide1" class="btn btn-circle">❮</a>
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+        </div>
+        <!-- ! Slide 3 -->
+        <div id="slide3" 
+        class="carousel-item relative w-full h-[60vh] py-24 flex items-center justify-center 
+                bg-gradient-to-br from-black/40 to-black/20 bg-cover bg-center" 
+        style="background-image: url('https://i.ibb.co.com/jrYC2BR/banner3.png');">
+      <!-- Hot Deal Banner -->
+      <div class="absolute top-0 right-0 my-10 mx-10 bg-slate-500 text-white p-2 rounded-md">
+        <h6>Hot Deal!!!!!!!!!!!</h6>
+      </div>
+
+      <!-- Slide Content -->
+      <div class="flex flex-col justify-center items-center">
+        <h1 class="text-7xl text-gray-700 font-bold text-center">
+          Exotic Tastes at <br> your Doorstep
+        </h1>
+        <p class="text-white w-2/3 text-center mx-auto mt-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus amet odio maxime quam saepe cupiditate quia, obcaecati hic reiciendis nihil. Aspernatur, architecto repellat vel ipsa minima iusto? Non error ullam quae nobis, nesciunt soluta!
+        </p>
+        <button class="btn btn-active bg-red-400 border-none text-white mt-4">
+          Shop Now!
+        </button>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide2" class="btn btn-circle">❮</a>
+        <a href="#slide4" class="btn btn-circle">❯</a>
+      </div>
+        </div>
+        <!-- Slide 4 -->
+        <div id="slide4" 
+        class="carousel-item relative w-full h-[60vh] py-24 flex items-center justify-center 
+                bg-gradient-to-br from-black/40 to-black/20 bg-cover bg-center" 
+        style="background-image: url('https://i.ibb.co.com/CzDf8Q2/banner4.png');">
+      <!-- Hot Deal Banner -->
+      <div class="absolute top-0 right-0 my-10 mx-10 bg-stone-500 text-white p-2 rounded-md">
+        <h6>Hot Deal!!!!!!!!!!!</h6>
+      </div>
+
+      <!-- Slide Content -->
+      <div class="flex flex-col justify-center items-center">
+        <h1 class="text-7xl text-white font-bold text-center">
+          Exotic Tastes at <br> your Doorstep
+        </h1>
+        <p class="text-white w-2/3 text-center mx-auto mt-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus amet odio maxime quam saepe cupiditate quia, obcaecati hic reiciendis nihil. Aspernatur, architecto repellat vel ipsa minima iusto? Non error ullam quae nobis, nesciunt soluta!
+        </p>
+        <button class="btn btn-active bg-red-400 border-none text-white mt-4">
+          Shop Now!
+        </button>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide3" class="btn btn-circle">❮</a>
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+        </div>
+      </div>
+
+      <div class="h-[20vh] w-2/3 mx-auto bg-slate-300 rounded-lg -translate-y-20 shadow-lg hidden lg:flex">
+        <div class="flex items-center justify-center">
+          <img src="../asset/fruit1.png" alt="">
+          <img src="../asset/fruit2.png" alt="">
+          <img src="../asset/fruit3.png" alt="">
+          <img src="../asset/fruit4.png" alt="">
+          <img src="../asset/fruit5.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- BANNER END HERE  -->
+    <!-- Fruits Section Start -->
+    <section class="my-24 py-16 container mx-auto px-4 lg:px-24">
+      <!-- Heading and Description -->
+      <div class="flex flex-col items-center text-center mb-12">
+        <h2 class="text-4xl lg:text-5xl font-bold mb-4">Deal Of the Day</h2>
+        <p class="text-gray-600 max-w-2xl">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos blanditiis natus molestias mollitia eum temporibus nisi magnam vel soluta cum quo ea, sed quis assumenda ipsa.
+        </p>
+      </div>
+      <!-- Countdown Timer -->
+      <div class="grid auto-cols-max grid-flow-col gap-5 justify-center text-center mb-12">
+        <div class="flex flex-col items-center">
+          <span class="countdown font-mono text-4xl lg:text-5xl">
+            <span style="--value:15;"></span>
+          </span>
+          <span class="text-gray-600">days</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="countdown font-mono text-4xl lg:text-5xl">
+            <span style="--value:10;"></span>
+          </span>
+          <span class="text-gray-600">hours</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="countdown font-mono text-4xl lg:text-5xl">
+            <span style="--value:24;"></span>
+          </span>
+          <span class="text-gray-600">min</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="countdown font-mono text-4xl lg:text-5xl">
+            <span style="--value:30;"></span>
+          </span>
+          <span class="text-gray-600">sec</span>
+        </div>
+      </div>
+
+      <!-- Cards Section -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+        <!-- Card Template -->
+        <div class="card  border-slate-300 bg-white shadow-lg rounded-xl hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center">
+          <figure class="mb-4">
+            <img src="../asset/fruit6.png" alt="Apple" class="rounded-xl w-40 h-40 object-cover" />
+          </figure>
+          <div class="card-body text-center">
+            <h2 class="card-title text-lg font-semibold mb-2">$56 - $120</h2>
+            <div class="divider my-4"></div>
+            <p class="text-gray-500 mb-4">Apple</p>
+            <div class="rating mb-4">
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <button class="btn btn-primary bg-orange-500 text-white hover:bg-orange-600">Details</button>
+          </div>
+        </div>
+
+        <!-- Repeat the Card 4 Times with Different Images -->
+        <div class="card  border-slate-300 bg-white shadow-lg rounded-xl hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center">
+          <figure class="mb-4">
+            <img src="../asset/fruit7.png" alt="Apple" class="rounded-xl w-40 h-40 object-cover" />
+          </figure>
+          <div class="card-body text-center">
+            <h2 class="card-title text-lg font-semibold mb-2">$56 - $120</h2>
+            <div class="divider my-4"></div>
+            <p class="text-gray-500 mb-4">Apple</p>
+            <div class="rating mb-4">
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <button class="btn btn-primary bg-orange-500 text-white hover:bg-orange-600">Details</button>
+          </div>
+        </div>
+        <!-- Additional cards with new images -->
+        <div class="card  border-slate-300 bg-white shadow-lg rounded-xl hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center">
+          <figure class="mb-4">
+            <img src="../asset/fruit8.png" alt="Orange" class="rounded-xl w-40 h-40 object-cover" />
+          </figure>
+          <div class="card-body text-center">
+            <h2 class="card-title text-lg font-semibold mb-2">$50 - $110</h2>
+            <div class="divider my-4"></div>
+            <p class="text-gray-500 mb-4">Orange</p>
+            <div class="rating mb-4">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <button class="btn btn-primary bg-orange-500 text-white hover:bg-orange-600">Details</button>
+          </div>
+        </div>
+
+        <div class="card  border-slate-300 bg-white shadow-lg rounded-xl hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center">
+          <figure class="mb-4">
+            <img src="../asset/fruit9.png" alt="Banana" class="rounded-xl w-40 h-40 object-cover" />
+          </figure>
+          <div class="card-body text-center">
+            <h2 class="card-title text-lg font-semibold mb-2">$40 - $90</h2>
+            <div class="divider my-4"></div>
+            <p class="text-gray-500 mb-4">Banana</p>
+            <div class="rating mb-4">
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <button class="btn btn-primary bg-orange-500 text-white hover:bg-orange-600">Details</button>
           </div>
         </div>
       </div>
-      <!-- BANNER END HERE  -->
-    </main>
-    <footer></footer>
+    </section>
+    <!-- Fruits Section end -->
+     <Section>
+        <div class="container lg:px-24 px-8 mx-auto">
+          <div class="h-[70vh] rounded-md w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(../asset/banner1.png)] bg-center bg-cover flex items-center justify-center text-center flex-col text-white">
+            <h3 class="text-5xl font-semibold">Meet The Team</h3>
+            <p class="w-2/3 text-center mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas dicta fugit vel omnis! Officia temporibus sed tempore suscipit facilis officiis repellat in odio veniam!</p>
+            <div class="flex gap-5">
+              <div class="avatar">
+                <div class="w-24 rounded-full">
+                  <img src="../asset/member1.png" />
+                </div>
+              </div>
+              <div class="avatar">
+                <div class="w-24 rounded-full">
+                  <img src="../asset/member2.png" />
+                </div>
+              </div>
+              <div class="avatar">
+                <div class="w-24 rounded-full">
+                  <img src="../asset/member3.png" />
+                </div>
+              </div>
+              <div class="avatar">
+                <div class="w-24 rounded-full">
+                  <img src="../asset/member4.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+     </Section>
+  </main>
+  <footer class="footer container mx-auto text-neutral-content p-4 mt-3 w-[180vh]">
+    <div class="flex justify-center items-center">
+      <img src="https://i.ibb.co.com/HBmMLJY/logo.png" alt="logo" border="0">
+      <p>&copy; 2024 Fruit Burst. All rights reserved.</p>
+    </div>
+    <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="fill-current">
+          <path
+            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+        </svg>
+      </a>
+      <a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="fill-current">
+          <path
+            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+        </svg>
+      </a>
+      <a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="fill-current">
+          <path
+            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+        </svg>
+      </a>
+    </nav>
+  </footer>
+   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- ! firebase script start here  -->
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-          apiKey: "AIzaSyBKdLsJ5c_vkQua4O2WvkN-wgZiFHWDAe0",
-          authDomain: "fruit-burst-website-70975.firebaseapp.com",
-          projectId: "fruit-burst-website-70975",
-          storageBucket: "fruit-burst-website-70975.firebasestorage.app",
-          messagingSenderId: "295697296846",
-          appId: "1:295697296846:web:48e30838e38599a5b90f9f"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-      </script>
-    <!-- ! firebase script end here  -->
+  <!-- ! firebase script start here  -->
+  <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyBKdLsJ5c_vkQua4O2WvkN-wgZiFHWDAe0",
+        authDomain: "fruit-burst-website-70975.firebaseapp.com",
+        projectId: "fruit-burst-website-70975",
+        storageBucket: "fruit-burst-website-70975.firebasestorage.app",
+        messagingSenderId: "295697296846",
+        appId: "1:295697296846:web:48e30838e38599a5b90f9f"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+  <!-- ! firebase script end here  -->
 </body>
 </html>
